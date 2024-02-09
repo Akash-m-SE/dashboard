@@ -1,0 +1,16 @@
+# Ignore artifacts:
+build
+coverage
+
+dist/
+**/node_modules
+public/
+.vscode/
+
+.env
+**/.git
+*.config.js
+*.config.cjs
+
+package.json
+package-lock.json
