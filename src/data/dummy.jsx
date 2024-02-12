@@ -486,7 +486,6 @@ export const employeesGrid = [
     textAlign: "Center",
     template: gridEmployeeCountry,
   },
-
   {
     field: "HireDate",
     headerText: "Hire Date",
@@ -494,7 +493,6 @@ export const employeesGrid = [
     format: "yMd",
     textAlign: "Center",
   },
-
   {
     field: "ReportsTo",
     headerText: "Reports To",
@@ -506,6 +504,7 @@ export const employeesGrid = [
     headerText: "Employee ID",
     width: "125",
     textAlign: "Center",
+    isPrimaryKey: true, // Set the primary key
   },
 ];
 
@@ -934,8 +933,8 @@ export const ordersGrid = [
     headerText: "Order ID",
     width: "120",
     textAlign: "Center",
+    isPrimaryKey: true,
   },
-
   {
     field: "Location",
     headerText: "Location",
